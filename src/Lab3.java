@@ -23,5 +23,6 @@ public class Lab3 {
         System.out.println("Dintre 5 si 8 mai mare este "+ (commparatie));
         System.out.println("Exercitiul 5: " + (op.verifyText(text4,number)));
         System.out.println("Exercitiul 6: " +op.numarcomparatie(number));
+        System.out.println("Exercitiul 7 " +op.numere3si4(number));
     }
 }

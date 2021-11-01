@@ -43,8 +43,10 @@ public class LogicalOperation {
         }else if (number==4){
             return "The number is equal to 4.";
         }
-        return "The numbers are different than 3 and 4.";
-
-
+        else if(number <3 ){
+return "the number is lower than 3.";
 }
+return "not found";
+}
+
 }
