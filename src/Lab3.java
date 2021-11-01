@@ -24,5 +24,6 @@ public class Lab3 {
         System.out.println("Exercitiul 5: " + (op.verifyText(text4,number)));
         System.out.println("Exercitiul 6: " +op.numarcomparatie(number));
         System.out.println("Exercitiul 7 " +op.numere3si4(number));
+        System.out.println("Exercitiul 8");
     }
 }
