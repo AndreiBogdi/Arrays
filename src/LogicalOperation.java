@@ -137,7 +137,20 @@ public class LogicalOperation {
             return false;
         }
     }
-
+    public int getSecondSmallestNumber(int[] arr, int number){
+        int min;
+        for(int i=0;i < number; i++){
+            for(int j=i+1;j < number;j++){
+                if(arr[i]> arr[j]){
+                    min = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = min;
+                }
+            }
+        }
+        return arr[1];
+    }
+    
 
 
 }

@@ -37,6 +37,13 @@ public class Lab3 {
         String[] array = { "cpu","motherboard", "ssd", "gpu","psu"};
         System.out.println("Exercitiul 5: "+ op.Array(array));
 
+        int[] arr2 = {12, 18, 24, 32, 1};
+        System.out.println("Exercitul 9: Al 2lea cel mai mic nr din array este: " + op.getSecondSmallestNumber(arr2, 5));
+
+
+
+
+
 
        // System.out.println("Exercitiul 1: \n Rezultatul adunarii 5+8 este "+ (adunare));
        // System.out.println("Rezultatul scaderii 5-8 este "+ (scadere));
